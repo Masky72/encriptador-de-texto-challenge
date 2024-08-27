@@ -1,0 +1,129 @@
+::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+*{
+    background:#c8acd600 ;
+    font-family:'Moderustic';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+video {
+	position: fixed;
+	min-height: 100%;
+	min-width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translatey(-50%);
+	z-index: -1;}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width:6%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #2E073F;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {color: #2E073F; }
+.text-area:focus {
+    outline: none;
+}
+
+.mensaje{
+    background: #f7e7ff;
+    background-image:url("/img/gato.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 23px;
+    color: #2E073F;
+    margin-left: 365px;
+    margin-top: 95px;
+    position: fixed;
+}
+
+.botones{
+display: flex;
+margin-top:19px; 
+
+}
+
+.btn-desencriptar{
+    background:  #f4ddff;
+    border: 1px solid #C8ACD6;
+    border-radius: 24px;
+    color: #2E073F;
+    cursor: pointer;
+    height: 66px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar{
+    background:#2E073F;
+    border: 1px solid #C8ACD6;
+    border-radius: 24px;
+    color: #f5e6fc;
+    cursor: pointer;
+    height: 66px;
+    width: 328px;
+}
+
+.btn-copiar{
+    background:  #f4ddff;
+    border: 23px;
+    border-radius: 24px;
+    color: #2E073F;
+    cursor: pointer;
+    height: 66px;
+    margin-left: 405px;
+    margin-top: 696px;
+    position: absolute;
+    width: 18%;
+}
+
+.informacion{
+    color: #2E073F;
+    font-size: 18px;
+}
+
+
+.movement{
+    position: fixed;
+    top: 44px;
+    left: 600px;
+    color: #f5e6fc;
+}
+.animationText{
+    width:1900px ;
+    height: 10px;
+}
+
+
+@media (max-width:1103px ){
+
+    .mensaje{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-copiar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
