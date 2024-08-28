@@ -36,11 +36,20 @@ main{
     color: #2E073F;
     margin-top: 90px;
     text-transform: lowercase;
+    background: #f7e7ff;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 23px;
+    caret-color:transparent;
+    
 }
 
-::placeholder {color: #2E073F; }
+::placeholder {color: #7911a5; }
 .text-area:focus {
     outline: none;
+    caret-color: #C8ACD6;
+    
+
 }
 
 .mensaje{
@@ -53,6 +62,7 @@ main{
     margin-left: 365px;
     margin-top: 95px;
     position: fixed;
+    caret-color:transparent;
 }
 
 .botones{
